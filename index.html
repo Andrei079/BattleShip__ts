@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Морской бой</title>
+</head>
+<body >
+    <div class="container columns">
+
+        <div class="wrap column is-two-thirds">   
+            <table class="battlefield">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>А</td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                            <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>Б</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>В</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>Г</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>Д</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>Е</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>Ж</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>З</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>И</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tr>
+                            <td>К</td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        <td class="field"></td>
+                        </tr>
+                        <tbody>
+            </table>
+        </div>
+
+        <ul class="control column">
+            <li class="control__item">
+                <button class="start__btn button " id="start">SHIP</button>
+            </li>
+            <li class="control__item">          
+                <input class="input is-rounded is-danger control__input"  type="text" id="coord"  placeholder="Координата A1">      
+            </li>            
+            <li class="control__item">
+              <button class="control__btn button is-danger"  id="btn">FIRE</button>
+            </li>
+        </ul>
+        <div class="display">
+         
+        </div>          
+       
+
+    </div>
+
+    <script src="appBattle.js"></script>
+</body>
+</html>
